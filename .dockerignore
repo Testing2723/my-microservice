@@ -1,3 +1,9 @@
 *.md
 .git
 *.pyc
+venv
+sonar-project.properties
+tests
+__pycache__
+.git
+.scannerwork

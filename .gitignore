@@ -2,6 +2,5 @@
 *.pyc
 venv
 sonar-project.properties
-tests
 __pycache__
 .scannerwork

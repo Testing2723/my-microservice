@@ -20,5 +20,6 @@ jobs:
       - name: run tests
         uses: pavelzw/pytest-action@v2
         with:
+          custom-arguments: tests/
           job-summary: false
           emoji: false
