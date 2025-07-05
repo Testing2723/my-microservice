@@ -19,3 +19,6 @@ jobs:
           pip install -r requirements.txt
       - name: run tests
         uses: pavelzw/pytest-action@v2
+        with:
+          job-summary: false
+          emoji: false
