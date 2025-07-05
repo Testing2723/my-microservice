@@ -61,4 +61,4 @@ jobs:
             docker pull ${{ secrets.DOCKERHUB_USERNAME }}/myappjai:latest
             docker stop myappjai || true
             docker rm myappjai || true
-            docker run -d -name myapp -p 80:8000 ${{ secrets.DOCKERHUB_USERNAME }}/myappjai:latest
+            docker run -d --name myapp -p 80:8000 ${{ secrets.DOCKERHUB_USERNAME }}/myappjai:latest
